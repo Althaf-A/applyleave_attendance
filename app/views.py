@@ -5,27 +5,22 @@ from django.shortcuts import render
 def index(request):
     return render(request, 'index.html')
 
+#common al se ji
+
 def Applyleave(request):
     return render(request, 'Applyleave.html')
     
-def Attendance(request):
-    return render(request, 'Attendance.html')
+#jishnu 
 
-def Trainees_Calendar(request):
-    return render(request, 'Trainees_Calendar.html')
-def Trainees_Attendancetable(request):
-    return render(request, 'Trainees_Attendancetable.html')
+def applyleavesub(request):
+    return render(request, 'applyleavesub.html')
+
+#sebin
 
 def Requestedleave(request):
     return render(request, 'Requestedleave.html')
 
-def Trainers_Attendancetable(request):
-    return render(request, 'Trainers_Attendancetable.html')
-def Trainers_Calendar(request):
-    return render(request, 'Trainers_Calendar.html')
-
-def applyleavesub(request):
-    return render(request, 'applyleavesub.html')
+#althaf
 
 def trainers_leave(request):
     return render(request, 'trainers_leave.html')
